@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Tailandesas 1:1 - Vasco da Gama</title>
+    <meta name="description" content="Entre em contato conosco para dúvidas, sugestões ou pedidos especiais. Estamos aqui para ajudar!">
+    <meta name="keywords" content="Vasco da Gama, camisas de futebol, tailandesas, 1:1, loja online, contato, atendimento">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="flex flex-col min-h-screen">
+    <header class="bg-black text-white p-4">
+        <nav class="container mx-auto flex flex-wrap justify-between items-center">
+            <a href="index.html" class="flex items-center mb-4 md:mb-0">
+                <img src="/logo.png" alt="Tailandesas 1:1 - Vasco" width="50" height="50" class="mr-2">
+                <span class="text-xl font-bold">Tailandesas 1:1 - Vasco</span>
+            </a>
+            <button class="md:hidden" id="menu-toggle">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+            <ul class="hidden md:flex w-full md:w-auto md:space-x-4 mt-4 md:mt-0" id="menu">
+                <li><a href="index.html" class="block py-2 hover:text-gray-300 transition-colors">Home</a></li>
+                <li><a href="produtos.html" class="block py-2 hover:text-gray-300 transition-colors">Produtos</a></li>
+                <li><a href="como-comprar.html" class="block py-2 hover:text-gray-300 transition-colors">Como Comprar</a></li>
+                <li><a href="depoimentos.html" class="block py-2 hover:text-gray-300 transition-colors">Depoimentos</a></li>
+                <li><a href="contato.html" class="block py-2 hover:text-gray-300 transition-colors">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-4 py-8 flex-grow">
+        <div class="max-w-2xl mx-auto">
+            <h1 class="text-3xl font-semibold mb-6">Contato</h1>
+            <form id="contact-form" class="space-y-4">
+                <div>
+                    <label for="name" class="block mb-1">Nome</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        required
+                        class="w-full p-2 border rounded"
+                    />
+                </div>
+                <div>
+                    <label for="email" class="block mb-1">E-mail</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                        class="w-full p-2 border rounded"
+                    />
+                </div>
+                <div>
+                    <label for="message" class="block mb-1">Mensagem</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        required
+                        class="w-full p-2 border rounded h-32"
+                    ></textarea>
+                </div>
+                <button type="submit" class="bg-black text-white px-6 py-2 rounded hover:bg-gray-800 transition-colors">
+                    Enviar
+                </button>
+            </form>
+            <div class="mt-8">
+                <h2 class="text-2xl font-semibold mb-4">Informações de Contato</h2>
+                <p>E-mail: tazmaniacrvg@gmail.com</p>
+                <p>Telefone: (21) 98475-0005</p>
+                <p>Endereço: Teresópolis/RJ</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white p-4 mt-8">
+        <div class="container mx-auto">
+            <h3 class="text-lg font-semibold mb-2">Políticas de Troca e Devolução</h3>
+            <ul class="text-sm mb-4 list-disc list-inside">
+                <li>Trocas e devoluções são aceitas apenas em caso de defeito de fabricação.</li>
+                <li>O cliente deve entrar em contato pelo WhatsApp (21) 98475-0005 dentro de 7 dias corridos após o recebimento do produto.</li>
+                <li>O produto deve estar em sua embalagem original, sem sinais de uso.</li>
+                <li>Personalizações não são elegíveis para troca ou devolução, exceto em caso de defeito.</li>
+            </ul>
+            <p class="text-sm">Frete fixo de R$40,00 para todo o Brasil.</p>
+            <p class="text-sm">Atendimento: (21) 98475-0005 (WhatsApp)</p>
+            <p class="text-sm mt-4">&copy; 2023 Tailandesas 1:1 - Vasco da Gama. Todos os dire
